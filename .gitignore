@@ -1,17 +1,8 @@
-# Python
+venv/
+Lib/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.egg-info/
-*.log
-venv/
-.env
-dist/
-build/
-
-# VS Code
-.vscode/
-
-# Jupyter
-.ipynb_checkpoints/
+*.ipynb
