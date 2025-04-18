@@ -1,4 +1,9 @@
-venv/* linguist-vendored
-Lib/* linguist-vendored
-*.pyc linguist-vendored
-*.ipynb linguist-vendored
+# Ignore Python virtual environments
+venv/** linguist-vendored
+
+# Ignore common libraries or generated folders
+node_modules/** linguist-vendored
+vendor/** linguist-vendored
+__pycache__/** linguist-vendored
+*.min.js linguist-generated
+*.map linguist-generated
